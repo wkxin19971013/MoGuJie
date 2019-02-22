@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>蘑菇街</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/sousuo.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/rem.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <a class="a1" href="javascript:;" onclick="window.location.href='page1.html'"></a>
+        <input type="text" placeholder="毛衣">
+        <a class="a2" href="javascript:;">搜索</a>
+    </header>
+    <!-- 第二块 -->
+    <div class="two">
+        <div class="two-1">
+            <i></i>
+            <span>历史搜索</span>
+            <div class="dele"></div>
+        </div>
+        <div class="two-2">
+            <p>暂无历史搜索</p>
+        </div>
+    </div>
+    <!-- 第三块 -->
+    <div class="three">
+        <div class="three-1">
+            <i></i>
+            <span>热门搜索</span>
+        </div>
+        <ul>
+            <li>
+                <a href="javascript:;">毛衣</a>
+            </li>
+            <li>
+                <a class="active" href="javascript:;">毛衣</a>
+            </li>
+            <li>
+                <a href="javascript:;">棉服</a>
+            </li>
+            <li>
+                <a class="active" href="javascript:;">大衣</a>
+            </li>
+            <li>
+                <a href="javascript:;">卫衣</a>
+            </li>
+            <li>
+                <a href="javascript:;">羽绒服</a>
+            </li>
+            <li>
+                <a  class="active" href="javascript:;">围巾</a>
+            </li>
+            <li>
+                <a href="javascript:;">外套</a>
+            </li>
+            <li>
+                <a href="javascript:;">马甲</a>
+            </li>
+            <li>
+                <a href="javascript:;">袜子</a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        $(function () {
+            $('header input').focus(function () {
+                $('header input').css("borderColor", "#ff4466")
+            })
+            $('header input').blur(function () {
+                $('header input').css("borderColor", "#666")
+            })
+        })
+    </script>
+</body>
+
+</html>

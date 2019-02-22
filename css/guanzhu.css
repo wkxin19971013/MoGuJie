@@ -1,0 +1,86 @@
+.box{
+    width: 3.15rem;
+    height: 4.3rem;
+    margin: auto;
+    margin-top: 0.6rem;
+    overflow: hidden;
+}
+.box h1{
+    margin: 0.5rem 0 0.5rem;
+    text-align: center;
+    font-size: .28rem;
+    font-weight: 200;
+    color: #444;
+    letter-spacing: .02rem;
+}
+.box .dl{
+    width: 3.15rem;
+    height: 0.5rem;
+    line-height: 0.18rem;
+    border-radius: 1rem;
+    background-color: rgb(9, 187, 7);
+    position: relative;
+}
+.dl img{
+    width: 0.22rem;
+    height: 0.18rem;
+    float: left;
+    position: absolute;
+    left:32%;
+    top:50%;
+    margin-top: -0.09rem;
+}
+.dl span{
+    font-size: 0.18rem;
+    color: #fff;
+    margin: 0 0.3rem;
+    float: left;
+    text-align: center;
+    line-height: 0.5rem;
+    margin: auto;
+    position: absolute;
+    left:44%;
+}
+.down{
+    margin-top: 0.5rem;
+}
+.down:before{
+    content: "";
+    display: block;
+    width: .2rem;
+    border-top: 1px solid #bbb;
+    margin: 0 auto;
+}
+.down h3{
+    font-size: .15rem;
+    font-weight: 200;
+    text-align: center;
+    color: #999;
+    margin: .7rem 0 .15rem;
+}
+.down ul{
+    width: 3.15rem;
+    height: 0.72rem;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 0.2rem;
+    /* float: left; */
+}
+.down li{
+    width: 0.48rem;
+    height: 0.72rem;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-left: 0.4rem;
+}
+.down li img{
+    width: 0.44rem;
+    height: 0.44rem;
+    float: left;
+}
+.down li p{
+    margin-top: .58rem;
+    font-size: .11rem;
+    color: #666;
+}

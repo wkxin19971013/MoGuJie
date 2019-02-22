@@ -1,0 +1,438 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+body{
+    background: rgb(239, 239, 239)
+}
+a{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+/* 头部 */
+header{
+    width: 3.75rem;
+    height: 0.46rem;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+.santiao{
+    float: left;
+    display: inline-block;
+    width: 0.5rem;
+    height:0.3rem;
+    background: url(../img/180926_3lac93lkglfd5gd4fiahedg5aad79_40x37.png)no-repeat center;;
+    background-size: 0.25rem auto;
+    margin-top: 0.1rem;
+}
+.ipt{
+    width: 2.5rem;
+    height: 0.3rem;
+    background: #fff;
+    margin-top: 0.09rem;
+    margin-left: 0.5rem;
+    border-radius: 2px;
+    position: relative;
+    background: #eee;
+}
+.ipt .sou{
+    display: block;
+    width: 0.31rem;
+    height: 0.31rem;
+    background:url(../img/sou.png)no-repeat 0.07rem center;
+    background-size: 0.19rem auto;
+    border-radius: 0.06rem;
+    position: absolute;
+    top:0rem;
+}
+.ipt input{
+    width: 2rem;
+    height: 0.3rem;
+    float: left;
+    margin-left: 0.3rem;
+    background: #eee;
+}
+.head-xiao{
+    width: 0.5rem;
+    height: 0.3rem;
+    position: absolute;
+    top:0.08rem;
+    right:0.1rem;
+    display:inline-block;
+    background: url(../img/xiao.png)no-repeat center;
+    background-size: 0.25rem auto;
+}
+/* 第二块 */
+.second{
+    width: 3.75rem;
+    height: 1rem;
+    overflow: hidden;
+    background: #fff;
+}
+.second ul{
+    width: 3.66rem;
+    height: 0.85rem;
+    margin: 0.1rem;
+}
+.second li{
+    position: relative;
+    float: left;
+    border-radius: 0.03rem;
+    margin-right: 0.08rem;
+    width: 0.82rem;
+    height: 0.82rem;
+}
+.second .li1{
+    background: url(../img/second-bg1.png);
+    background-size: cover;
+}
+.second .li1 img{
+    width: 0.61rem;
+    height: 0.82rem;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.time{
+    position: absolute;
+    bottom: 0.21rem;
+    color: #fff;
+    left: 50%;
+    font-size: 0.14rem;
+    margin-left: -0.28rem;
+}
+.time span{
+    background: #333333;
+    border-radius: 0.03rem;
+    width: 0.16rem;
+    height: 0.16rem;
+    text-align: center;
+    line-height: 0.16rem;
+    font-size: 0.1rem;
+    font-weight: 300;
+}
+.time em{
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    width: 0.01rem;
+    height: 0.06rem;
+    background: url(../img/maohao.png)no-repeat center;
+}
+.tit{
+    position: absolute;
+    bottom: 0.02rem;
+    left: 0;
+    width: 100%;
+    font-size: 0.14rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.second .li2{
+    background: url(../img/second-bg2.png);
+    background-size: cover;
+}
+.second .li3{
+    background: url(../img/second-bg3.png);
+    background-size: cover;
+}
+.second .li4{
+    background: url(../img/second-bg4.png);
+    background-size: cover;
+}
+/* 第三块 列表 */
+.three{
+    width: 3.75rem;
+    height: 2.52rem;
+    background: #fff;
+}
+.three a{
+    width: 0.75rem;
+    height: 0.71rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.04rem;
+    float: left;
+}
+.three a img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    margin: auto;
+}
+.three a p{
+    height: 0.18rem;
+    line-height: 0.18rem;
+    font-weight: normal;
+    margin-top: 0.05rem;
+    font-size: 0.14rem;
+    text-align: center;
+    color: #666;
+}
+/* 第四块 热门精选 */
+.four{
+    width: 3.75rem;
+    height: 3.5rem;
+}
+.four a{
+    width: 3.75rem;
+    height: 1rem;
+    display: block;
+    position: relative;
+}
+.four a img{
+    width: 3.75rem;
+    height: 1rem;
+}
+.four a em{
+    position: absolute;
+    bottom: -6px;
+    left: 0.2rem;
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 0.06rem solid #FFFFFF;
+    border-left: 0.06rem solid transparent;
+    border-right: 0.06rem solid transparent;
+    border-top: 0.06rem solid transparent;
+}
+.four .tit{
+    height: 0.24rem;
+    width: 3.25rem;
+    float: left;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.45rem;
+    color: #fff;
+    font-size: 0.16rem;
+}
+.four-down{
+    margin-top: 0.12rem;
+    width: 3.75rem;
+    height: 2.39rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+      width: 3.75rem !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .down{
+      /* width: 3.75rem !important; */
+      height: 2.1rem;
+      /* float: left; */
+  }
+  .down li{
+      width: 1.13rem;
+      height: 1.51rem;
+      float: left;
+      margin-left: 0.05rem;
+      position: relative;
+  }
+  .down li img{
+    width: 1.13rem;
+    height: 1.51rem;
+}
+.down .sm-tit{
+    color: #333;
+    font-size: 0.14rem;
+    text-align: center;
+    margin-top: 0.03rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* 第五块 流行元素 */
+.five{
+    width: 3.75rem;
+    height: 4.24rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.18rem;
+    /*padding-top: 0.18rem;*/
+    /*padding-left: 0.18rem;*/
+    background-color: rgb(255, 255, 255);
+}
+.five h1{
+    font-size: 0.16rem;
+    padding-left: 0.09rem;
+    font-weight: 500;
+    margin: 0.1rem 0 0.15rem;
+}
+.five a{
+    display: block;
+    width: 1.13rem;
+    height: 1.13rem;
+    float: left;
+    background: #F3F3F3;
+    margin-bottom: 0.09rem;
+    margin-left: 0.07rem;
+    margin-right: 0.035rem;
+    position: relative;
+}
+.five a img{
+    width: 0.8rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 66%;
+    left: 15%;
+    transform: translateY(-50%);
+    display: block;
+}
+.five a p{
+    position: absolute;
+    top: 0.1rem;
+    width: 100%;
+    font-size: 0.14rem;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+}
+/*猜你喜欢*/
+.like img{
+    width: 3.75rem;
+    height: 0.38rem;
+    display: block;
+    margin: auto;
+}
+/* 猜你喜欢  下边一堆  */
+
+.list{
+    display: block;
+    width: 1.73rem;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+    background: #fff;
+    border-radius: .03rem;
+    overflow: hidden;
+    height: 3.25rem;
+}
+.list-img{
+    position: relative;
+    width: 100%;
+    height: 2.32rem;
+    /* overflow: hidden; */
+}
+.list-img img{
+    width: 1.73rem;
+    height: 2.32rem;
+    display: block;
+}
+.list-img span{
+    position: absolute;
+    bottom: .05rem;
+    height: .25rem;
+    line-height: .25rem;
+    min-width: 40%;
+    max-width: 70%;
+    text-align: left;
+    background: url(../img/yinying.png)left center no-repeat;
+    background-size: 100%;
+    padding: 0 .2rem 0 .1rem;
+    color: #fff;
+    font-size: .1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-info{
+    padding: .1rem .06rem .04rem .06rem;
+    overflow: hidden;
+}
+.list-info .p1{
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    line-height: .17rem;
+    font-size: .12rem;
+    color: #333;
+}
+.list-info .p2{
+    height: .25rem;
+    overflow: hidden;
+}
+.p2 .s1{
+    max-width: 60%;
+    line-height: 0.19rem;
+    margin-top: 0.03rem;
+    font-size: .15rem;
+    font-weight: 300;
+    overflow: hidden;
+}
+.p2 .s2{
+    max-width: 50%;
+    margin-top: .07rem;
+    overflow: hidden;
+    height: .14rem;
+    line-height: .1rem;
+    padding-right: .15rem;
+    background: url(../img/xing.png)center right no-repeat;
+    background-size: auto .12rem;
+    font-size: .12rem;
+    color: #999;
+}
+.pink{
+    width: 100%;
+    height: .25rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 87, 119);
+    line-height: .25rem;
+    border-radius: .03rem;
+    font-size: .13rem;
+    text-align: center;
+    margin-top: 0.02rem;
+    margin-bottom: 0.02rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 底部 */
+.foot{
+    width: 3.75rem;
+    height: 0.48rem;
+    background: #FFf;
+    position: fixed;
+    bottom: 0;
+    z-index: 2222;
+}
+.foot a{
+    width: 0.7rem;
+    height: 0.49rem;
+    float: left;
+    text-align: center;
+    line-height: 0.48rem;
+    margin-left: 0.2rem;
+    display: inline-block;
+    color: rgb(102, 102, 102);
+    font-size: 0.15rem;
+}
+.foot a.active{
+    color: rgb(255, 63, 120);
+}

@@ -1,0 +1,140 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 头部 */
+header{
+    width: 3.75rem;
+    height: 0.39rem;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+header .a1{
+    display: block;
+    width: 0.26rem;
+    height: 0.2rem;
+    background: url(../img/Jiantou.png)center center no-repeat;
+    color: #999;
+    background-size: contain;
+    position: absolute;
+    top: 0.1rem;
+    left:0.07rem;
+}
+header input{
+    padding: .05rem .1rem;
+    float: left;
+    width: 2.6rem;
+    height: .13rem;
+    border-radius: .045rem;
+    border: 1px solid #aaa;
+    font-size: .14rem;
+    line-height: .25rem;
+    vertical-align: middle;
+    background-color: #FFF;
+    margin-left: 0.4rem;
+    margin-top: 0.07rem;
+}
+header .a2{
+    position: absolute;
+    height: .25rem;
+    width: .35rem;
+    color:#999;
+    right: 0.1rem;
+    top:0.07rem;
+    font-size: .14rem;
+    line-height: .25rem;
+    text-align: center;
+}
+/* 第二块 */
+.two{
+    width: 3.75rem;
+    height: 0.74rem;
+    border-bottom: 1px solid #eee;
+}
+.two-1{
+    width: 3.55rem;
+    height: 0.22rem;
+    margin: auto;
+    margin-top: 0.2rem;
+}
+.two-1 i{
+    width: 0.15rem;
+    height: 0.15rem;
+    float: left;
+    margin-right: 2px;
+    margin-top: 5px;
+    background: url(../img/ss.png)center center no-repeat;
+    background-size: contain;
+}
+.two-1 span{
+    font-size: .12rem;
+    line-height: .22rem;
+    height: .22rem;
+    color: #999;
+    float: left;
+}
+.dele{
+    float: right;
+    height: .15rem;
+    width: .15rem;
+    margin-right: .2rem;
+    background: url(../img/dele.png)center center no-repeat;
+    background-size: contain;
+}
+.two-2{
+    font-size: .12rem;
+    line-height: .22rem;
+    height: .22rem;
+    margin-top: .1rem;
+    margin-left: .16rem;
+    color: #999;
+}
+/* 第三块 */
+.three{
+    width: 3.55rem;
+    height: 0.97rem;
+    padding: .1rem;
+}
+.three-1{
+    width: 3.55rem;
+    height: 0.22rem;
+}
+.three-1 i{
+    float: left;
+    height: .15rem;
+    width: .15rem;
+    margin-right: 2px;
+    margin-top: 2px;
+    background: url(../img/xx.png)center center no-repeat;
+    background-size: contain;
+}
+.three-1 span{
+    font-size: .12rem;
+    line-height: .22rem;
+    height: .22rem;
+    color: #999;
+    float: left;
+}
+.three ul li{
+    float: left;
+    margin-top: .12rem;
+    margin-left: .1rem;
+    border-radius: .05rem;
+    border: 1px solid #f5f5f5;
+    font-size: .14rem;
+    height: .25rem;
+    line-height: .25rem;
+}
+.three ul li a{
+    color: #666;
+    display: block;
+    padding: 0 .2rem;
+}
+.three ul li a.active{
+    color: #ff4466;
+}
+a{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}

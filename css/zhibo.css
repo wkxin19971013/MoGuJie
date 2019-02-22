@@ -1,0 +1,221 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 头部 */
+header{
+    width: 3.75rem;
+    height: 0.46rem;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+}
+header .top{
+    width: 3.75rem;
+    height: 0.46rem;
+    position: relative;
+}
+header a{
+    width: 0.93rem;
+    height: 0.45rem;
+    display: block;
+    text-align: center;
+    color: #333;
+    line-height: 0.45rem;
+    border-bottom: 2px solid transparent;
+    font-size: 0.15rem;
+    height: 0.45rem;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+}
+header a.active{
+    color: #ff5777;
+}
+header .pink{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    transition: .3s ease-out;
+    width: 25%;
+    box-sizing: border-box;
+}
+header .pink:before{
+    display: block;
+    content: "";
+    height: 2px;
+    box-sizing: border-box;
+   background-color: #ff5777;
+}
+/* 身体 */
+section{
+    display: none;
+}
+section.active{
+    display: block;
+}
+.box{
+    width: 3.51rem;
+    height: 2.42rem;
+    position: relative;
+    padding-left: .12rem;
+    padding-right: .12rem;
+   
+}
+.box-top{
+    width: 3.51rem;
+    height: 0.42rem;
+    background:#fff;
+    position: relative;
+    z-index: 222;
+}
+.box-top img{
+    margin-left: .12rem;
+    margin-right: .09rem;
+    float: left;
+    width: .47rem;
+    height: .47rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: .02rem solid hsla(0,0%,100%,.9);
+    transform: translateY(20%);
+    background-color: #efefef;
+}
+.box-top span{
+    font-size: .14rem;
+    float: left;
+    color: #333;
+    font-weight: 500;
+    line-height: 0.6rem;
+}
+.box-down{
+    width: 3.51rem;
+    height: 2rem;
+    background: #efefef;
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    background-position: 50%;
+    border-radius: .04rem;
+    position: relative;
+}
+.box-down-litle{
+    width: 3.27rem;
+    height: 1.16rem;
+    position: relative;
+    margin-top: auto;
+    padding: .7rem .12rem .12rem;
+}
+.box-down .pk{
+    margin-left: 1.45rem;
+   position: absolute;
+   top:0.1rem;
+    width: .5rem;
+    height: auto;
+    background-size: 100% auto;
+    background-position: 50%;
+    box-sizing: border-box;
+    background-repeat: no-repeat; 
+}
+.live-info{
+    width: 1.13rem;
+    height: 0.19rem;
+    padding-left: .05rem;
+    padding-right: .05rem;
+    font-size: 0.15rem;
+    color: #fff;
+    background-color: rgba(0,0,0,.26);
+    border-radius: 3px;
+    line-height:0.19rem;
+}
+.live-info .dot{
+    margin-right: 5px;
+    margin-top: 0.05rem;
+    width: .09rem;
+    height: .09rem;
+    line-height: .19rem;
+    float: left;
+    border-radius: 50%;
+    background-color: #f5342f;
+    animation: dot-flicker 2s infinite;
+}
+@keyframes dot-flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.status{
+    float: left;
+    font-size: .1rem;
+}
+.watch-num{
+    display: inline-block;
+    padding-left: .18rem;
+    background: url(../img/hot.png).05rem no-repeat;
+    vertical-align: middle;
+    background-size: .08rem auto;
+    margin-left: .045rem;
+    border-left: 1px solid hsla(0,0%,100%,.3);
+    font-size: .1rem;
+}
+.live-title{
+    margin-top: .05rem;
+    font-size: .15rem;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.35)
+}
+.good-list{
+    margin-top: .09rem;
+    width: 1.9rem;
+    height: 0.6rem;
+}
+.good-list .good-list1{
+    float: left;
+    position: relative;
+    margin-left: 0.03rem;
+}
+.good-list img{
+    width: 0.6em;
+    height: 0.6rem;
+    float: left;
+}
+.good-list span{
+    position: absolute;
+    bottom: 0;
+    left:0.02rem;
+    margin-left: .05rem;
+    font-size: .1rem;
+    color: #fff;
+}
+.pinglun{
+    position: absolute;
+    bottom: .12rem;
+    right: .12rem;
+    width: 1.2rem;
+    height: 0.6rem;
+    overflow: hidden;
+}
+.pinglun li {
+    width: 1.2rem;
+    height: 0.18rem;
+    float: left;
+}
+.pinglun li img{
+    margin-right: .035rem;
+    width: .14rem;
+    height: .14rem;
+    float: left;
+    border-radius: 50%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.pinglun li span{
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 0.12rem;
+}

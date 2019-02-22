@@ -1,0 +1,265 @@
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+/* 头部 */
+.top{
+    width: 100%;
+    height: 0.47rem;
+}
+header{
+    width: 3.75rem;
+    height: 0.46rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top:0;
+    z-index: 2222;
+}
+header a{
+    background: url(../img/xiao.png) no-repeat center;
+    background-size: 0.22rem auto;
+    display: inline-block;
+    width: 0.5rem;
+    height: 100%;
+    float: left;
+}
+header .ipt{
+    float: left;
+    width: 2.65rem;
+    height: 0.3rem;
+    background: #eee;
+    border-radius: 0.03rem;
+    margin-top: 0.07rem;
+} 
+header .ipt .suo{
+    background: url(../img/sou.png)no-repeat 0.075rem center;
+    display: block;
+    height: 0.3rem;
+    font-size: 0.12rem;
+    color: #999;
+    background-size: 0.2rem auto;
+    border-radius: 0.03rem;
+}
+header .ipt input{
+    width: 2.1rem;
+    float: left;
+    margin-top: 0.08rem;
+    margin-left: -0.1rem;
+    background: #eee;
+}
+.buy-car{
+    background: url(../img/buycar.png)no-repeat center;
+    background-size: 0.2rem auto;
+    display: inline-block;
+    width: 0.5rem;
+    height: 100%;
+    float: right;
+}
+/* 分类大盒子 */
+.cont{
+    width: 3.75rem;
+    overflow: hidden;
+    height: auto;
+/* height: 10rem; */
+}
+/* 分类盒子右边side */
+.side{
+    width: 0.9rem;
+    height: 6.21rem;
+    overflow: scroll;
+    position: fixed;
+}
+.side::-webkit-scrollbar{
+    display: none;
+}
+.gun1{
+    width: 0.9rem;
+    height: 7.2rem;
+}
+.gun1 ul{
+    float: left;
+}
+.gun1 li{
+    position: relative;
+    width: 0.9rem;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #666666;
+    background: rgb(246,246,246)
+}
+.gun1 li.active{
+    background-color: #fff;
+    color: #FF5777;
+}
+.gun1 li p{
+    position: absolute;
+    width: 80%;
+    height: 0.15rem;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.08rem;
+    margin-left: -0.45rem;
+    line-height: 0.15rem;
+    border-left: solid transparent 4px;
+}
+.gun1 li.active p{
+    border-left: solid #FF5577 4px;
+    font-weight: bold;
+}
+/* 分类大盒子右边 */
+.right{
+    width: 2.85rem;
+    overflow: scroll;
+    float: right;
+    position: relative;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+.right>div{
+    overflow: hidden;
+    width: 2.85rem;
+}
+.right a{
+    width: 0.88rem;
+    height: 0.95rem;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    float: left;
+}
+.right img{
+    width: 0.65rem;
+    height: 0.65rem;
+    display: block;
+    margin: auto;
+}
+.right p{
+    font-size: 0.12rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.19rem;
+    margin-top: 0.1rem;
+}
+.right>div{
+    display: none;
+}
+
+/* 综合  销量  新品*/
+.one-wrap{
+    width: 3.75rem;
+
+}
+.one-wrap-tit{
+    width: 3.75rem;
+    position: relative;
+    top:0;
+    z-index: 811;
+    padding-top: 0.2rem;
+    height: .25rem;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+.one-wrap-tit a{
+    position: relative;
+    width: 0.85rem;
+    font-size: .14rem;
+    color: #333;
+    display:block;
+    height: .15rem;
+    line-height: .15rem;
+    border-left: 0.02rem solid #e6e6e6;
+}
+.one-wrap-tit a.active{
+    color: #ef4562;
+}
+/* 大图 */
+.list{
+    display: block;
+    width: 1.3rem;
+    margin-left: 0.02rem;
+    background: #fff;
+    border-radius: .03rem;
+    overflow: hidden;
+    height: auto;
+}
+.list-img{
+    position: relative;
+    width: 100%;
+    height: 1.7rem;
+    overflow: hidden;
+}
+.list-img img{
+    width: 1.33rem;
+    height: 1.78rem;
+    display: block;
+}
+.list-img span{
+    position: absolute;
+    bottom: .05rem;
+    height: .25rem;
+    line-height: .25rem;
+    min-width: 40%;
+    max-width: 70%;
+    text-align: left;
+    background: url(../img/yinying.png)left center no-repeat;
+    background-size: 100%;
+    padding: 0 .2rem 0 .1rem;
+    color: #fff;
+    font-size: .1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-info{
+    padding: .05rem .06rem .04rem .06rem;
+    overflow: hidden;
+}
+.list-info .p1{
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    line-height: .17rem;
+    font-size: .12rem;
+    color: #333;
+}
+.list-info .p2{
+    height: .47rem;
+    overflow: hidden;
+}
+.p2 .s1{
+    max-width: 60%;
+    line-height: 0.19rem;
+    margin-top: 0.03rem;
+    color: #FF5777;
+    font-size: .15rem;
+    font-weight: 300;
+    overflow: hidden;
+}
+.p2 .s2{
+    max-width: 50%;
+    margin-top: .07rem;
+    overflow: hidden;
+    height: .14rem;
+    line-height: .1rem;
+    padding-right: .15rem;
+    background: url(../img/xing.png)center right no-repeat;
+    background-size: auto .12rem;
+    font-size: .12rem;
+    color: #999;
+}
+
